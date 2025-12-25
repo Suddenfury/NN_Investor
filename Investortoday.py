@@ -12,7 +12,7 @@ from sklearn.neural_network import MLPRegressor
 # Config
 # =========================
 FMP_BASE = "https://financialmodelingprep.com/stable"
-FMP_API_KEY = "8DD30uW6GEg13Zh6aWv9vLGt4N6IQ91u"   # ok for local prototyping
+FMP_API_KEY = "Inset Key"   # ok for local prototyping
 
 
 
@@ -258,3 +258,4 @@ def predict(SYMBOL):
 
 if __name__ == "__main__":
     predict("AAPL")
+

@@ -12,7 +12,7 @@ from sklearn.neural_network import MLPRegressor
 # Config
 # =========================
 FMP_BASE = "https://financialmodelingprep.com/stable"
-FMP_API_KEY = "8DD30uW6GEg13Zh6aWv9vLGt4N6IQ91u"   # ok for local prototyping
+FMP_API_KEY = "insert Key"   # ok for local prototyping
 
 MODEL_PATH = Path("ecosystem_mlp.joblib")
 META_PATH  = Path("ecosystem_mlp_meta.joblib")  # stores feature list + config so we can detect mismatch
@@ -319,3 +319,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
